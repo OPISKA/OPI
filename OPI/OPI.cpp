@@ -121,6 +121,7 @@ char enter_letter()
             if (toupper(letter) == el) check_letter = false;
         }
     }
+    cin.ignore(1000, '\n');
     return letter;
 }
 
